@@ -1,17 +1,16 @@
 {
-  "name": "bu_node_mysql",
+  "name": "express-node-rest-project",
   "version": "1.0.0",
-  "description": "api restfull com mysql e nodejs ",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "tozzi",
   "license": "ISC",
   "dependencies": {
-    "knex": "^0.15.0",
-    "mysql": "^2.15.0",
-    "restify": "^7.2.1",
-    "restify-errors": "^6.1.1"
+    "express": "^4.15.2",
+    "mysql": "^2.13.0"
   }
 }
