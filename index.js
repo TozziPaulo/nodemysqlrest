@@ -2,7 +2,6 @@ const restify = require('restify');
 
 const errs = require('restify-errors');
 const PORT = process.env.PORT || 3000;
-const HOST = '127.0.0.1';
 const server = restify.createServer({
   name: 'myapp',
   version: '1.0.0'
